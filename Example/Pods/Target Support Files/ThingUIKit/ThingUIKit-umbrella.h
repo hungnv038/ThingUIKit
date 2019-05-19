@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "UIViewController+Alert.h"
+#import "UIViewController+Popup.h"
 
 FOUNDATION_EXPORT double ThingUIKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char ThingUIKitVersionString[];

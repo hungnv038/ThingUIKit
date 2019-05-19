@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06C4950B8BCC5C48D61BAE7A55897C17 /* ThingUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 556949DA5727CA6A2D1AB6C8367B52CF /* ThingUIKit-dummy.m */; };
 		097E3E0CDEB5388D89C85873D659AE73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		103B253E34D20F689297E79291F4936F /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 549C0B787372F9E5990DC7097B803042 /* UIViewController+Alert.m */; };
 		3ACEAEF01EF77CD43C2FCF15469DE4BA /* Pods-ThingUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0B777B6E528FDBFA4FC57CB0B49F56 /* Pods-ThingUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		445BACC43CE786BA160EC384C62DA6F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		4C4FC9B2229167420007C8D3 /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4FC9B0229167420007C8D3 /* UIViewController+Alert.m */; };
-		4C4FC9B3229167420007C8D3 /* UIViewController+Alert.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4FC9B1229167420007C8D3 /* UIViewController+Alert.h */; };
-		AD20802245648F278A68C55E0173CF3D /* ThingUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 238789D358AA034E5F546A15A1110587 /* ThingUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7519EE75AE8E088D7DCE73ACB7A034F3 /* ThingUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E31733A3B92FC4EC10CCF0E61EA53E8 /* ThingUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD7DB54EE3B697A670B4EBD7353312C7 /* UIViewController+Alert.h in Headers */ = {isa = PBXBuildFile; fileRef = 419E4B4904EE5F1C77894174ED813135 /* UIViewController+Alert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEA5089A369B86CDFC2C5107FC67BF1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
 		D555CBDFCD5D16834A62AEECFF98E23D /* Pods-ThingUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BE8AE9F7DC054B3270355C4757DD14 /* Pods-ThingUIKit_Example-dummy.m */; };
-		DE790EF056E9285874118E99E8CC15BA /* ThingUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 661231C020187CAAAB8A981A05EA5201 /* ThingUIKit-dummy.m */; };
+		DDB9F3D7FE16D9AEA1EF0CA8623FC993 /* UIViewController+Popup.h in Headers */ = {isa = PBXBuildFile; fileRef = B96B55F12E171D665002F4B0AADB4532 /* UIViewController+Popup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFC4778EA18AC1FCA9C22032B3A289F5 /* Pods-ThingUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B385BB3E83DAFD014B06A358BF83CB3 /* Pods-ThingUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1DD99D259A05368A9EA894E5EBE01A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
 		E9861C252AFA3C28CB59E0AC9B3F928A /* Pods-ThingUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B40C0B1774CB0C3ABE118162BDBDDA /* Pods-ThingUIKit_Tests-dummy.m */; };
+		FE4DE8D7B656F16A9A5B2F3D968089BA /* UIViewController+Popup.m in Sources */ = {isa = PBXBuildFile; fileRef = 7101F6F422F53B00D3609D684521E74F /* UIViewController+Popup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,39 +42,41 @@
 
 /* Begin PBXFileReference section */
 		01BE8AE9F7DC054B3270355C4757DD14 /* Pods-ThingUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThingUIKit_Example-dummy.m"; sourceTree = "<group>"; };
-		0B466DA219D5279001747B599997D452 /* ThingUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThingUIKit-prefix.pch"; sourceTree = "<group>"; };
-		1040D670B00E39B2BD176B98C3EB8FCD /* ThingUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ThingUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		11EBC977E5A75E47C528CCA7AE8E4890 /* Pods_ThingUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThingUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		238789D358AA034E5F546A15A1110587 /* ThingUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThingUIKit-umbrella.h"; sourceTree = "<group>"; };
+		11EBC977E5A75E47C528CCA7AE8E4890 /* Pods_ThingUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThingUIKit_Example.framework; path = "Pods-ThingUIKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		278696FD46D3A7329901BF4EE12E91D1 /* Pods-ThingUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThingUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2873A0F8BEA06E56BC98EF9E4CDA8A0C /* ThingUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ThingUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3B385BB3E83DAFD014B06A358BF83CB3 /* Pods-ThingUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThingUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		3B5D2C50775B4DD16C6E4556DF54256D /* Pods-ThingUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThingUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3E11CF64EEA84C8CA89CC7506C33C89A /* ThingUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ThingUIKit-Info.plist"; sourceTree = "<group>"; };
 		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		419E4B4904EE5F1C77894174ED813135 /* UIViewController+Alert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Alert.h"; path = "ThingUIKit/Classes/UIViewController+Alert.h"; sourceTree = "<group>"; };
 		453B66ACDF57E331FB3A9FF58817FFCA /* Pods-ThingUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThingUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4C4FC9B0229167420007C8D3 /* UIViewController+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Alert.m"; path = "ThingUIKit/Classes/UIViewController+Alert.m"; sourceTree = "<group>"; };
-		4C4FC9B1229167420007C8D3 /* UIViewController+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Alert.h"; path = "ThingUIKit/Classes/UIViewController+Alert.h"; sourceTree = "<group>"; };
 		4E1050E590A6D7BEE8526EDD06707D06 /* Pods-ThingUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThingUIKit_Example-Info.plist"; sourceTree = "<group>"; };
+		549C0B787372F9E5990DC7097B803042 /* UIViewController+Alert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Alert.m"; path = "ThingUIKit/Classes/UIViewController+Alert.m"; sourceTree = "<group>"; };
+		556949DA5727CA6A2D1AB6C8367B52CF /* ThingUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThingUIKit-dummy.m"; sourceTree = "<group>"; };
 		580C28B4E8C1E14046F7E3D0D0FF08D7 /* Pods-ThingUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThingUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		661231C020187CAAAB8A981A05EA5201 /* ThingUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThingUIKit-dummy.m"; sourceTree = "<group>"; };
-		734D35336083066ED799626A1802D53C /* ThingUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ThingUIKit.modulemap; sourceTree = "<group>"; };
-		7BB800501CE75C6BE693D863152647A5 /* ThingUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThingUIKit.xcconfig; sourceTree = "<group>"; };
+		6A69629D6638BED742C51978673B4515 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6E31733A3B92FC4EC10CCF0E61EA53E8 /* ThingUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThingUIKit-umbrella.h"; sourceTree = "<group>"; };
+		7101F6F422F53B00D3609D684521E74F /* UIViewController+Popup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Popup.m"; path = "ThingUIKit/Classes/UIViewController+Popup.m"; sourceTree = "<group>"; };
 		7DD2925624099136F30F075AB199F253 /* Pods-ThingUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThingUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8236EC7BC9E9A97B48D319708F8ABDB1 /* Pods_ThingUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThingUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8236EC7BC9E9A97B48D319708F8ABDB1 /* Pods_ThingUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThingUIKit_Tests.framework; path = "Pods-ThingUIKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		838360DF25C3879605DC1AD3B1946344 /* Pods-ThingUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThingUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8FACD599A94D3DBDDF9A6C7A344CB496 /* ThingUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ThingUIKit-Info.plist"; sourceTree = "<group>"; };
 		90F367762F0A545D3334040339310EBC /* Pods-ThingUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThingUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		941682ED6A040C1E4E5595E44BD72F26 /* ThingUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ThingUIKit.modulemap; sourceTree = "<group>"; };
 		961DB32132797CAA2B6CA3CD4F74CAA9 /* Pods-ThingUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ThingUIKit_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3F09CF6E3D99ED6F99587D6289C8131 /* Pods-ThingUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThingUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A62C61D72124780B73E11A9E4C39B0B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B1F85CFD891E79DCEB1637F679179ADC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B88EDE7408B390D529C0976D0F70BEFA /* Pods-ThingUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ThingUIKit_Example.modulemap"; sourceTree = "<group>"; };
+		B96B55F12E171D665002F4B0AADB4532 /* UIViewController+Popup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Popup.h"; path = "ThingUIKit/Classes/UIViewController+Popup.h"; sourceTree = "<group>"; };
 		C285D5489C16CD5F70D88B7BEDE0BB89 /* Pods-ThingUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThingUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		C6B40C0B1774CB0C3ABE118162BDBDDA /* Pods-ThingUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThingUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		C7DEB9BC8FBB2BD75317107F0CE6D72F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CC0B777B6E528FDBFA4FC57CB0B49F56 /* Pods-ThingUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThingUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D9F474C28FC2DCBE55B60B934C0D10E7 /* Pods-ThingUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThingUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DB0FCC1191761D4AA08E55512835668C /* ThingUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThingUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0FCC1191761D4AA08E55512835668C /* ThingUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ThingUIKit.framework; path = ThingUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E255B1EA354DB738558DF4BB7E8D35D5 /* ThingUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThingUIKit.xcconfig; sourceTree = "<group>"; };
 		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FDC1E7BA0F31002E2DD33B7D09DC1AD5 /* ThingUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThingUIKit-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1533DEB98E782375AF36AA35A864766E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6A69629D6638BED742C51978673B4515 /* LICENSE */,
+				B1F85CFD891E79DCEB1637F679179ADC /* README.md */,
+				2873A0F8BEA06E56BC98EF9E4CDA8A0C /* ThingUIKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +135,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		4029E21BBC6F6D2A2577AA27C757E8A6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D71D783F96065B6A9BB5A66CB5BF96F3 /* ThingUIKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		58E2C97422F02408CD6B0F54C697BCD5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,24 +151,6 @@
 				DB0FCC1191761D4AA08E55512835668C /* ThingUIKit.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		708863499CAFB7AC99D7DA236D84783A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C7DEB9BC8FBB2BD75317107F0CE6D72F /* LICENSE */,
-				A62C61D72124780B73E11A9E4C39B0B9 /* README.md */,
-				1040D670B00E39B2BD176B98C3EB8FCD /* ThingUIKit.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		7519B5E86AC9CCACD609BD40470E0065 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				841EB59DA6B3383D1901386A2A6B52C8 /* ThingUIKit */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7F55068C8103519FE24973F2C02149E3 /* Pods-ThingUIKit_Tests */ = {
@@ -165,16 +169,18 @@
 			path = "Target Support Files/Pods-ThingUIKit_Tests";
 			sourceTree = "<group>";
 		};
-		841EB59DA6B3383D1901386A2A6B52C8 /* ThingUIKit */ = {
+		95CA1FD6E6F3861F31953A5E4A28C1D6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4C4FC9B1229167420007C8D3 /* UIViewController+Alert.h */,
-				4C4FC9B0229167420007C8D3 /* UIViewController+Alert.m */,
-				708863499CAFB7AC99D7DA236D84783A /* Pod */,
-				F01411B63492352AE1630A80130AEE10 /* Support Files */,
+				941682ED6A040C1E4E5595E44BD72F26 /* ThingUIKit.modulemap */,
+				E255B1EA354DB738558DF4BB7E8D35D5 /* ThingUIKit.xcconfig */,
+				556949DA5727CA6A2D1AB6C8367B52CF /* ThingUIKit-dummy.m */,
+				8FACD599A94D3DBDDF9A6C7A344CB496 /* ThingUIKit-Info.plist */,
+				FDC1E7BA0F31002E2DD33B7D09DC1AD5 /* ThingUIKit-prefix.pch */,
+				6E31733A3B92FC4EC10CCF0E61EA53E8 /* ThingUIKit-umbrella.h */,
 			);
-			name = ThingUIKit;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ThingUIKit";
 			sourceTree = "<group>";
 		};
 		C2F876E760D7BA41B0FD0364CEA11BC5 /* Pods-ThingUIKit_Example */ = {
@@ -198,11 +204,25 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7519B5E86AC9CCACD609BD40470E0065 /* Development Pods */,
+				4029E21BBC6F6D2A2577AA27C757E8A6 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				58E2C97422F02408CD6B0F54C697BCD5 /* Products */,
 				1E14C7392826176E1F11FC37370BB328 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D71D783F96065B6A9BB5A66CB5BF96F3 /* ThingUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				419E4B4904EE5F1C77894174ED813135 /* UIViewController+Alert.h */,
+				549C0B787372F9E5990DC7097B803042 /* UIViewController+Alert.m */,
+				B96B55F12E171D665002F4B0AADB4532 /* UIViewController+Popup.h */,
+				7101F6F422F53B00D3609D684521E74F /* UIViewController+Popup.m */,
+				1533DEB98E782375AF36AA35A864766E /* Pod */,
+				95CA1FD6E6F3861F31953A5E4A28C1D6 /* Support Files */,
+			);
+			name = ThingUIKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
@@ -214,37 +234,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F01411B63492352AE1630A80130AEE10 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				734D35336083066ED799626A1802D53C /* ThingUIKit.modulemap */,
-				7BB800501CE75C6BE693D863152647A5 /* ThingUIKit.xcconfig */,
-				661231C020187CAAAB8A981A05EA5201 /* ThingUIKit-dummy.m */,
-				3E11CF64EEA84C8CA89CC7506C33C89A /* ThingUIKit-Info.plist */,
-				0B466DA219D5279001747B599997D452 /* ThingUIKit-prefix.pch */,
-				238789D358AA034E5F546A15A1110587 /* ThingUIKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ThingUIKit";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3F9A65DEF9FF56CECA5A735646AD5DD3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C4FC9B3229167420007C8D3 /* UIViewController+Alert.h in Headers */,
-				AD20802245648F278A68C55E0173CF3D /* ThingUIKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8369AFF708CA3EEF9E16C73B17D4EB48 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3ACEAEF01EF77CD43C2FCF15469DE4BA /* Pods-ThingUIKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE5F227C65F5B8DCEB459A741FB6284 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7519EE75AE8E088D7DCE73ACB7A034F3 /* ThingUIKit-umbrella.h in Headers */,
+				BD7DB54EE3B697A670B4EBD7353312C7 /* UIViewController+Alert.h in Headers */,
+				DDB9F3D7FE16D9AEA1EF0CA8623FC993 /* UIViewController+Popup.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +270,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AADFE90484B992D281B936F13012A2F0 /* Build configuration list for PBXNativeTarget "ThingUIKit" */;
 			buildPhases = (
-				3F9A65DEF9FF56CECA5A735646AD5DD3 /* Headers */,
-				0A4BF4BC423BF8E918BC5980705B4F0C /* Sources */,
+				BDE5F227C65F5B8DCEB459A741FB6284 /* Headers */,
+				AE6E5E93611FA964500F534ED116D545 /* Sources */,
 				CF0612A042D066DABC445F80F5522DD2 /* Frameworks */,
 				AC552D68CC28D1DE9E2736DC83856261 /* Resources */,
 			);
@@ -329,7 +336,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -369,15 +375,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0A4BF4BC423BF8E918BC5980705B4F0C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C4FC9B2229167420007C8D3 /* UIViewController+Alert.m in Sources */,
-				DE790EF056E9285874118E99E8CC15BA /* ThingUIKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		26A6CEC19732728B5A739B4C33CA1BA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -391,6 +388,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D555CBDFCD5D16834A62AEECFF98E23D /* Pods-ThingUIKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6E5E93611FA964500F534ED116D545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C4950B8BCC5C48D61BAE7A55897C17 /* ThingUIKit-dummy.m in Sources */,
+				103B253E34D20F689297E79291F4936F /* UIViewController+Alert.m in Sources */,
+				FE4DE8D7B656F16A9A5B2F3D968089BA /* UIViewController+Popup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +455,7 @@
 		};
 		A56C76123B202169EE45DB869E53C6BC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BB800501CE75C6BE693D863152647A5 /* ThingUIKit.xcconfig */;
+			baseConfigurationReference = E255B1EA354DB738558DF4BB7E8D35D5 /* ThingUIKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -576,7 +583,7 @@
 		};
 		C9D9268C41B0A962DB66A6816552EA3C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BB800501CE75C6BE693D863152647A5 /* ThingUIKit.xcconfig */;
+			baseConfigurationReference = E255B1EA354DB738558DF4BB7E8D35D5 /* ThingUIKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -724,7 +731,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

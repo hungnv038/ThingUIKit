@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hungnv038/ThingUIKit.git",
-    "tag": "1.0.0"
+    "branch": "master"
   },
   "platforms": {
     "ios": "9.3"
