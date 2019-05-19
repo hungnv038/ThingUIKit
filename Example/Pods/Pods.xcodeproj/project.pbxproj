@@ -18,7 +18,6 @@
 		DE790EF056E9285874118E99E8CC15BA /* ThingUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 661231C020187CAAAB8A981A05EA5201 /* ThingUIKit-dummy.m */; };
 		DFC4778EA18AC1FCA9C22032B3A289F5 /* Pods-ThingUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B385BB3E83DAFD014B06A358BF83CB3 /* Pods-ThingUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1DD99D259A05368A9EA894E5EBE01A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		E5A037B6DB8FAAFE060199636A84136E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 45835278253DB133BF9998D892312B51 /* ReplaceMe.m */; };
 		E9861C252AFA3C28CB59E0AC9B3F928A /* Pods-ThingUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B40C0B1774CB0C3ABE118162BDBDDA /* Pods-ThingUIKit_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +50,6 @@
 		3E11CF64EEA84C8CA89CC7506C33C89A /* ThingUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ThingUIKit-Info.plist"; sourceTree = "<group>"; };
 		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		453B66ACDF57E331FB3A9FF58817FFCA /* Pods-ThingUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThingUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		45835278253DB133BF9998D892312B51 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ThingUIKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		4C4FC9B0229167420007C8D3 /* UIViewController+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Alert.m"; path = "ThingUIKit/Classes/UIViewController+Alert.m"; sourceTree = "<group>"; };
 		4C4FC9B1229167420007C8D3 /* UIViewController+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Alert.h"; path = "ThingUIKit/Classes/UIViewController+Alert.h"; sourceTree = "<group>"; };
 		4E1050E590A6D7BEE8526EDD06707D06 /* Pods-ThingUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThingUIKit_Example-Info.plist"; sourceTree = "<group>"; };
@@ -172,7 +170,6 @@
 			children = (
 				4C4FC9B1229167420007C8D3 /* UIViewController+Alert.h */,
 				4C4FC9B0229167420007C8D3 /* UIViewController+Alert.m */,
-				45835278253DB133BF9998D892312B51 /* ReplaceMe.m */,
 				708863499CAFB7AC99D7DA236D84783A /* Pod */,
 				F01411B63492352AE1630A80130AEE10 /* Support Files */,
 			);
@@ -377,7 +374,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C4FC9B2229167420007C8D3 /* UIViewController+Alert.m in Sources */,
-				E5A037B6DB8FAAFE060199636A84136E /* ReplaceMe.m in Sources */,
 				DE790EF056E9285874118E99E8CC15BA /* ThingUIKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
