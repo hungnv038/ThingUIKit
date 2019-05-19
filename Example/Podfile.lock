@@ -1,0 +1,16 @@
+PODS:
+  - ThingUIKit (1.0.0)
+
+DEPENDENCIES:
+  - ThingUIKit (from `../`)
+
+EXTERNAL SOURCES:
+  ThingUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ThingUIKit: 87443b536451f74afdbdc8eb6eb3ccbb1e6ea593
+
+PODFILE CHECKSUM: 9dd11c2291a678cb49154e28b465a602e91e4e90
+
+COCOAPODS: 1.6.1

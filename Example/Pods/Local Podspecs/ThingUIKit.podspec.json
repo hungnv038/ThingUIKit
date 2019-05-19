@@ -1,0 +1,23 @@
+{
+  "name": "ThingUIKit",
+  "version": "1.0.0",
+  "summary": "A short abstract of UIKit.",
+  "description": "While develop project, we always need use UIKit from apple, but we are having alot of repetative tasks which show View, show alert..., this library is created to remove that repetative tasks",
+  "homepage": "https://github.com/hungnv038/ThingUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hungnv038": "hungnv038@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/hungnv038/ThingUIKit.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.3"
+  },
+  "source_files": "ThingUIKit/Classes/**/*.{h,m}",
+  "frameworks": "UIKit"
+}

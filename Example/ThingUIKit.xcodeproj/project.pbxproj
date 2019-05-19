@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		2BD0C6DC938E4A4929639640 /* Pods_ThingUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThingUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43E032453340E66DAA110309 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		43E032453340E66DAA110309 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		493185EC786A03C431BCAFBA /* Pods-ThingUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThingUIKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-ThingUIKit_Tests/Pods-ThingUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5591F02201F24FE3D3F58880 /* Pods-ThingUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThingUIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-ThingUIKit_Example/Pods-ThingUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ThingUIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThingUIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,8 +64,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E6C0E2A181B299B733D08E0 /* Pods-ThingUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThingUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ThingUIKit_Tests/Pods-ThingUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		92A5B89D309A4EEEC7274992 /* Pods-ThingUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThingUIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-ThingUIKit_Example/Pods-ThingUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B204CDCE79557307861230AE /* ThingUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ThingUIKit.podspec; path = ../ThingUIKit.podspec; sourceTree = "<group>"; };
-		C3F466C8364D27E1B4839B7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B204CDCE79557307861230AE /* ThingUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ThingUIKit.podspec; path = ../ThingUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C3F466C8364D27E1B4839B7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DDF4ACB8245109AC1275EF41 /* Pods_ThingUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThingUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				8E6C0E2A181B299B733D08E0 /* Pods-ThingUIKit_Tests.debug.xcconfig */,
 				493185EC786A03C431BCAFBA /* Pods-ThingUIKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = hungnv038;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = NC8B9TE3ZW;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -498,9 +501,11 @@
 			baseConfigurationReference = 92A5B89D309A4EEEC7274992 /* Pods-ThingUIKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NC8B9TE3ZW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ThingUIKit/ThingUIKit-Prefix.pch";
 				INFOPLIST_FILE = "ThingUIKit/ThingUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,9 +518,11 @@
 			baseConfigurationReference = 5591F02201F24FE3D3F58880 /* Pods-ThingUIKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NC8B9TE3ZW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ThingUIKit/ThingUIKit-Prefix.pch";
 				INFOPLIST_FILE = "ThingUIKit/ThingUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
